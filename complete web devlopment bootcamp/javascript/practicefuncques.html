@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        let marks ={
+            harry:98,
+            shubham:9,
+            lovish:56,
+            monika:4
+         }
+
+        //  problem no 1:
+        for (let i = 0; i < Object.keys(marks).length; i++) {
+            console.log("the marks of" +  Object.keys(marks)[i] + "are" + marks[Object.keys(marks)[i]])
+        }
+
+        // problem no 2:
+        for(let key in marks){
+        console.log("the marks of" + key + "are" + marks[key])
+        }
+
+        // problem no 3:
+        let cr=43;
+        let i
+        while (i!=cr) {
+            i= prompt("Enter a number")
+            console.log("Try again")
+        }
+        console.log("you have entered a correct number")
+
+        // problem no 4:
+
+        const mean = (a,b,c,d) => {
+            return (a+b+c+d)/4
+        }
+
+        console.log(mean(8,9,6,7))
+    </script>
+</body>
+</html>

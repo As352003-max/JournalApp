@@ -1,0 +1,38 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: beige;
+    border: solid black 2px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    transition: all 3s linear 1s;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    /* rotation is used to rotate the box */
+    /* transform: rotate(360deg); */
+
+    /* scale is used to increase the size and decrease the size */
+    /* transform: scale(2);
+    transform: rotate(-45deg); */
+
+    /* in transform we use skew properties to tilt the box */
+    /* transform: skew(45deg); */
+
+    /* to move the box we will use transalate (here we write x direction,here we will write y direction)  */
+    transform: translate(500px,500px);
+
+}
+p{
+    font-size: 28px;
+}
