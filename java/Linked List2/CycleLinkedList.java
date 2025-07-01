@@ -1,3 +1,5 @@
+
+
 public class CycleLinkedList {
     public static class Node{
         int data;
@@ -239,6 +241,10 @@ public class CycleLinkedList {
             // 1->2->3->1
             System.out.println(isCycle());
         }
+    }
+
+
+
+
 
     
-}
