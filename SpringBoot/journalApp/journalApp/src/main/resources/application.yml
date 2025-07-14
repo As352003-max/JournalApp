@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: prod # Change to "prod" when deploying
+
+
+

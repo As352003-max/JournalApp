@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+  data:
+    mongodb:
+      uri: mongodb+srv://amitanshusa2003:AB8GBHoAThFDkxlb@cluster0.ndmlqhp.mongodb.net/journaldb?retryWrites=true&w=majority&tls=true
+      auto-index-creation: true
+
+
+server:
+  port: 8080
+  servlet:
+    context-path: /journal
